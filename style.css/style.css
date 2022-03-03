@@ -1,0 +1,12 @@
+body{
+    font-family: Roboto;
+    color: #414141;
+
+}
+.container{
+    display: flex;
+    max-width: 1140px;
+}
+svg{
+    display: inline-block;
+}

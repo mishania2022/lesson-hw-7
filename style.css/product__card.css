@@ -1,0 +1,113 @@
+.product{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.11);
+    max-width: 263px;
+    padding: 21px 20px 20px;
+    height: 488px;
+    border-radius: 0px;
+
+    /* TODO: Удалить в будущем*/
+    margin-top: 20px;
+}
+.product__name{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 6px;
+}
+.product__discription{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #414141;
+    margin-bottom: 9px;
+}
+.product__price{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #414141;
+    margin-bottom: 15px;
+}
+.product:hover{
+    transform: scale(1.05);
+}
+.product__like{
+    display: block;
+    margin-left: auto;
+    width: min-content;
+    background: none;
+    padding: 0;
+    margin-right: -5px;
+    transition: color .3s;
+    margin-bottom: 28px;
+    
+
+}
+.product__like:active{
+    
+    color:red;
+}
+
+.product__like:hover {
+    color: rgba(255, 0, 0, 0.7);
+    cursor: pointer;
+  }
+
+.product__info{
+
+}
+.product__image{
+    width: calc(100% - 24px);
+    margin: 0 12px 54px;
+}
+.sizes__title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #414141;
+    margin-bottom: 8px;
+
+}
+.sizes__row{
+    display: flex;
+    margin-bottom: 17px;
+    justify-content: space-between;
+}
+.sizes__dimention-name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #C4C4C4;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.sizes__dimention-value{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    color: #414141;
+}
+.fa-solid fa-xmark{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #414141;
+    margin-top: 10px;
+}
